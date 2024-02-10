@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="login-container">
+    <div class="login-head">
+        &nbsp;Sign In
+        <div class="go-back">
+            <a href="/">
+                <img width="35" height="35" src="https://img.icons8.com/ios/100/ffffff/circled-left-2.png" alt="circled-left-2"/>
+            </a>
+            </div>
+    </div>
+    <div class="login-form">
+        <form action="">
+            <input class="login-form-input" type="text" id="username" name="username" placeholder="Username" required>
+            <input class="login-form-input" type="password" id="passwd" name="passwd" placeholder="Password" required>
+            <p class = "login-form-frgt-psswd">Forgot Password?<a href="/recover"> Click Here</a></p>
+            <button type="submit" onClick="login()">Sign In</button>
+        </form>
+    </div>
+    <div class="login-dont-have-acc">
+        <p>Don't have an account? </p> &nbsp;
+        <a href="/register"> SIGN UP NOW</a>
+    </div>
+</div>
+
+{% endblock main %}
