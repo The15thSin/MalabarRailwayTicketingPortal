@@ -29,3 +29,10 @@ Once `pip` has finished downloading the dependencies:
 (env)$ python manage.py runserver
 ```
 And navigate to `http://127.0.0.1:8000/`.
+
+
+# Main Features : 
+  1. Ticket Booking
+  2. Login System
+  3. Train Search
+  4. PNR Search 
