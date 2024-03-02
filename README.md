@@ -12,17 +12,20 @@ $ cd MalabarRailwayTicketingPortal
 Create a virtual environment to install dependencies in and activate it:
 
 ```sh
-$ virtualenv2 --no-site-packages env
-$ source env/bin/activate
+$ pip install  virtualenv
 ```
-
-Then install the dependencies:
+then on Unix or MacOS:
 
 ```sh
-(env)$ pip install -r requirements.txt
+$ python3 -m vitualenv env
 ```
+and on Windows:
+```sh
+$ python -m venv env
+```
+Then install the dependencies as required for the project.
 Note the `(env)` in front of the prompt. This indicates that this terminal
-session operates in a virtual environment set up by `virtualenv2`.
+session operates in a virtual environment set up by `virtualenv`.
 
 Once `pip` has finished downloading the dependencies:
 ```sh
@@ -32,7 +35,7 @@ And navigate to `http://127.0.0.1:8000/`.
 
 
 # Main Features : 
-  1. Ticket Booking
-  2. Login System
-  3. Train Search
-  4. PNR Search 
+  ### 1. Ticket Booking
+  ### 2. Login System
+  ### 3. Train Search
+  ### 4. PNR Search 
